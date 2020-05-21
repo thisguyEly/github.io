@@ -1,0 +1,32 @@
+Alert(); = pop up box
+Console.Write(); = immediate print
+Document.write(); = browser window displays message
+
+------------------------------------
+Declaring Variables
+------------------------------------
+var 
+let
+const
+
+prompt(); - method call - asking user for info
+
+
+------------------------------------
+Template Literals
+------------------------------------
+uses `or "back tic" symbol in place of quotation marks.
+
+
+querySelector(); - use to call html elements from html file.
+
+------------------------------------
+Conditional Statements
+------------------------------------
+if () {
+ 
+} else {
+
+}
+
+parseInt() - method converts string to integer
