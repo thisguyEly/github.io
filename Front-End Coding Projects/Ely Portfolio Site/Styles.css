@@ -1,0 +1,29 @@
+
+/***** Basic CSS Styles **********/
+
+.header-container {
+font-style: italic;
+border: seagreen;
+}
+
+.title {
+    color: green;
+    background-color: darkgreen;
+    border-color: black;
+}
+
+/**** Media Queries ********/
+/* adding media queries to adjust size & orientation of view for both mobile & desktop views */
+@media only screen and (min-width: 480px), 
+only screen and (min-width: 700px) and (orientation: landscape) {
+
+
+}
+
+/******** Clearfix ************/
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
