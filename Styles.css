@@ -1,0 +1,47 @@
+
+/***** Basic CSS Styles **********/
+.home {
+    color: darkblue;
+    position: absolute;
+}
+
+.header-container {
+justify-content: center;
+font-style: italic;
+border-radius: 10%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: darkgreen;
+    border-color: black;
+}
+
+p {
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+/**** Media Queries ********/
+/* adding media queries to adjust size & orientation of view for both mobile & desktop views */
+@media only screen and (min-width: 480px), 
+only screen and (min-width: 700px) and (orientation: landscape) {
+
+
+}
+
+/******** Clearfix ************/
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
