@@ -9,10 +9,15 @@
       The Portfolio Site for Ely Sanneman as part of Code Louisville front-end
       coding project
     </title>
+    
   </head>
   <body>
+
+<!--Home Section-->
+    <section id="home" class="banner">
     <div class="header-container"></div>
     <header class="wrapper clearfix">
+      <img src="./Images/profile_pic.jpg" alt="profile pic">
       <h1 class="title">Ely Sanneman</h1>
       <span class="Home">Front-End Developer</span>
       <nav>
@@ -22,6 +27,10 @@
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
+      </section>
+<br>
+<!--About Section-->
+<section>
         <div class="about">
         <h2>About</h2>
         <p>
@@ -30,28 +39,65 @@
           to add JavaScript, CSS & HTML to my knowledge base.
         </p>
       </div>
+    </section>
 
-        <article>
           <header>
             <section></section>
           </header>
-
+<br>
+<!--Portfolio Section-->
+<section>
           <div class="portfolio">
           <span>Portfolio</span>
           <h2>My Projects</h2>
         </div>
-
-        </article>
       </nav>
     </header>
-
+  </section>
+<br>
+  <!--Contact Section-->
+  <section>
     <h2>Contact</h2>
     <address>
       <strong>Phone:</strong><a>502.836.4594</a>
       <strong>Email:</strong>
       <a href="mailto:thisguyely@gmail.com">thisguyely@gmail.com</a>
     </address>
+
+<!--contact message form-->
+    <form class="form" action="Index.html" method="POST">
+    <h1>Submit a question or comment</h1>
+  
+    <fieldset>
+      <legend> Contact</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="user_email">
+    </fieldset>
+
+    <fieldset>
+      <legend> Message</legend>
+      <label for="Message">Message</label>
+      <textarea id="message"  name="message" name="user_message"></textarea>
+  </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </section>
   </body>
 
-  <footer></footer>
+  <footer>
+    <div class="footer_content">
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/ely-sanneman-mta-a9866193?challengeId=AQGdfiFaty-t8gAAAXKoxSQzHzxiVMKqn64HyyHYSR2B2FlvZuTModc-LJzEfiQXw2lOp3XEPy-dMW2hL8Hd12C_vF1r281Rfw&submissionId=5d0a3611-bacf-1716-c8aa-1aa08402c918">LinkedIn</a></li>
+        <li><a href="https://github.com/thisguyEly">GitHub</a></li>
+        <li><a href="">Facebook</a></li>
+      </ul>
+      <br>
+    <div class="copyright">&copy;Copywright 2020. All rights Reserved.</div>
+  </div>
+  </footer>
 </html>
